@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  padding: 20px;
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+
+    .row {
+      border-bottom: 2px solid black;
+      
+      td {
+        padding: 6px 0;
+      }
+    }
+  
+    .key {
+      font-weight: 500;
+    }
+  }
+}

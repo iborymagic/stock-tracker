@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  padding: 10px 20px;
+
+  .title {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .current {
+    font-weight: 600;
+  }
+
+  .change {
+    margin: 12px;
+
+    .percent {
+      margin-left: 6px;
+    }
+  }
+
+  .market {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+
+  .positive {
+    color: #ff6161;
+  }
+  
+  .negative {
+    color: #2a7cff;
+  }
+}
